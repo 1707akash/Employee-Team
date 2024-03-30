@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import TeamScreen from './Screen/TeamScreen';
 
 function App() {
   return (
     <div className="App">
-      <h1>Employee</h1>
+      <TeamScreen />
     </div>
   );
 }
